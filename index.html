@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Curso de javascript - Eventos</title>
+
+
+    </head>
+
+    <body>
+
+        <section class="formulario">
+            <div class="contform">
+                <form id="formulario" action="#">
+                    <h1 class="titleform">Inscreva-se</h1>
+                    <span id="contentalert"><i class="fa-solid fa-circle-exclamation"></i>Usuário ou senha inválidos!</span>
+                    
+                    <label for="username">E-mail:</label>
+                    <input class="username" type="username" name="username">
+                    <div class="alert"></div>
+
+                    <label for="senha">Senha:</label>
+                    <input class="password" type="password" name="senha">
+                    <div class="alert"></div>
+
+                    <label for="senha">Confirme sua senha:</label>
+                    <input class="confsenha" type="password" name="senha">
+                    <span class="alert alertpass"><i class="fa-solid fa-circle-exclamation"></i>Senhas não compatíveis</span>
+
+                    <input class="buton" type="submit" value="enviar">
+                </form>
+            </div>
+            <section class="usuarios">
+                <h2>Usuários cadastrados</h2>
+                <ul id="ulist"></ul>
+            </section>
+        </section>
+        
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/d7647bb46f.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
